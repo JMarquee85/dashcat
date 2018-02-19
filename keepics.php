@@ -18,7 +18,7 @@ function dashCat() {
 	$currentPhoto = $photoAreas[$randomNumber];
 	echo '<img src="' . $currentPhoto . '" width=250 height=250>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><i><a href=".">MEOW!</a></strong></i>';
 	echo '<br><br>Do you <strong><i>love</strong></i> seeing cat pictures in your WordPress admin dashboard? Of course you do.<a href="mailto:josh.marcus@wpengine.com?subject=These Cat Pics Saved My Business.&cc=joshmarcus85@gmail.com&body=Hi, Josh!%0D%0A%0D%0AJust wanted to drop you a line to tell you how much your plugin has improved my life. Who knew WordPress could be this much fun?%0D%0A%0D%0ASincerely,%0A%0D%0AYour Biggest Fan"><br>Email Josh</a> to let him know how much these cat photos improved your editing experience.';
-	echo '<br><br><a href="mailto:?subject=Check Out This Great Cat Photo!&body=I know we both totally love cat photos, so I thought I should send you one from this great new WordPress Admin Dashboard Widget that I just picked up!%0D%0A%0D%0ACheck it out!%0D%0A%0D%0A' . $currentPhoto . '%0D%0A%0D%0ACool, right?">Or Email this photo to a friend!</a><br><br>';
+	echo '<br><br><a href="mailto:?subject=Check Out This Great DashCat Photo!&body=I know we both totally love cat photos, so I thought I should send you one from this great new WordPress Admin Dashboard Widget that I just picked up!%0D%0A%0D%0ACheck it out!%0D%0A%0D%0A' . $currentPhoto . '%0D%0A%0D%0ACool, right?">Or Email this photo to a friend!</a><br><br>';
 	echo '<a href="https://twitter.com/intent/tweet?button_hashtag=joshmarcus85&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #joshmarcus85</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>';
 	
 
